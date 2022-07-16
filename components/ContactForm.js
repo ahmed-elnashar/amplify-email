@@ -89,7 +89,7 @@ export const ContactForm = ({ initialRef, onClose }) => {
 
         <ModalFooter>
           <Button colorScheme="blue" mr={3} type="submit">
-            Send
+            Confirm
           </Button>
           <Button onClick={onClose}>Cancel</Button>
         </ModalFooter>

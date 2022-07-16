@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "amplifymailnotify",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "/media/a7medelnashar/1CA6FC64A6FC4036/Projects/Learning/amplify-playground/amplify-email/amplify/backend/api/amplifymailnotify/schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 7
+    }
+  }
+}

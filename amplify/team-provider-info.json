@@ -1,0 +1,24 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplifymailnotify-dev-111934-authRole",
+      "UnauthRoleArn": "arn:aws:iam::080731591288:role/amplify-amplifymailnotify-dev-111934-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::080731591288:role/amplify-amplifymailnotify-dev-111934-authRole",
+      "Region": "eu-central-1",
+      "DeploymentBucketName": "amplify-amplifymailnotify-dev-111934-deployment",
+      "UnauthRoleName": "amplify-amplifymailnotify-dev-111934-unauthRole",
+      "StackName": "amplify-amplifymailnotify-dev-111934",
+      "StackId": "arn:aws:cloudformation:eu-central-1:080731591288:stack/amplify-amplifymailnotify-dev-111934/69673a50-04e8-11ed-8ee5-02a8910d21f6",
+      "AmplifyAppId": "d2fwkbd3fi1cr7"
+    },
+    "categories": {
+      "function": {
+        "amplifymailnotifyd4bebe13": {
+          "sesEmail": "growupat2017@gmail.com",
+          "deploymentBucketName": "amplify-amplifymailnotify-dev-111934-deployment",
+          "s3Key": "amplify-builds/amplifymailnotifyd4bebe13-39547868476a6537314e-build.zip"
+        }
+      }
+    }
+  }
+}
