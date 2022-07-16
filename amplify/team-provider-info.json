@@ -16,7 +16,7 @@
         "amplifymailnotifyd4bebe13": {
           "sesEmail": "growupat2017@gmail.com",
           "deploymentBucketName": "amplify-amplifymailnotify-dev-111934-deployment",
-          "s3Key": "amplify-builds/amplifymailnotifyd4bebe13-39547868476a6537314e-build.zip"
+          "s3Key": "amplify-builds/amplifymailnotifyd4bebe13-6a664139393170757464-build.zip"
         }
       }
     }

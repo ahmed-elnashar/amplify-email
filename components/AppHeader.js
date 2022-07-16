@@ -16,7 +16,7 @@ export const AppHeader = () => {
       <Text color={'gray.500'}>
         Confirm your reservation to any of our branches across all over Egypt & enjoy the highest quality ever!
         <br />
-        You'll get a confirmation mail with all the details attached as soon as you confirm your reservation.
+        You will get a confirmation mail with all the details attached as soon as you confirm your reservation.
       </Text>
     </>
   )

@@ -10,6 +10,8 @@ import {
   useToast,
 } from '@chakra-ui/react'
 import { useState } from 'react'
+import { API } from 'aws-amplify'
+import { createCustomer } from '../src/graphql/mutations'
 
 export const ContactForm = ({ initialRef, onClose }) => {
   const toast = useToast()
@@ -23,7 +25,15 @@ export const ContactForm = ({ initialRef, onClose }) => {
     const { name, email } = formState
     if (name && email) {
       try {
-        console.log('<send to backend here>')
+        // Sending the mail
+        await API.graphql({
+          query: createCustomer,
+          variables: {
+            input: {
+              name, email
+            }
+          }
+        })
 
         toast({
           title: 'Congratulations',

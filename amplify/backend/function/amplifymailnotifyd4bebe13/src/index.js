@@ -11,7 +11,7 @@ exports.handler = async (event) => {
       await ses
         .sendEmail({
           Destination: {
-            ToAddresses: [process.env.SES_EMAIL],
+            ToAddresses: [process.env.SES_EMAIL]
           },
           Source: process.env.SES_EMAIL,
           Message: {
@@ -20,7 +20,6 @@ exports.handler = async (event) => {
               Text: {
                 Data: `
                 Dear ${customerName},${'\n'}
-
                 Reservation under: ${customerName} ${'\n'}
                 Date & time: ${new Date().toLocaleString()} ${'\n'}
                 Number of guests: ${Math.round(Math.random() * 10)} ${'\n'}
