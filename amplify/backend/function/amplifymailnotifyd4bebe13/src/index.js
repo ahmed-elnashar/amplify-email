@@ -15,6 +15,7 @@ exports.handler = async (event) => {
             templateData.numberOfGuests = "3";
             await ses
                 .sendTemplatedEmail({
+                    ConfigurationSetName: 'EmailTracking',
                     Destination: {
                         ToAddresses: [process.env.SES_EMAIL]
                     },
